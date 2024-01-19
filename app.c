@@ -3,23 +3,23 @@
 
 int main()
 {
-    float LA, LB, LC;
+    float lA, lB, lC;
 
     printf("--------------------\n");  
     printf(" VERIFICA TRIANGULO \n");
     printf("--------------------\n"); 
 
     printf("Lado A: ");
-    scanf("%f",&LA);
+    scanf("%f",&lA);
     printf("Lado B: ");
-    scanf("%f",&LB);
+    scanf("%f",&lB);
     printf("Lado C: ");
-    scanf("%f",&LC);
+    scanf("%f",&lC);
 
 
-    if (LA + LB > LC && LB + LC > LA && LA + LC > LB)
+    if (lA + lB > lC && lB + lC > lA && lA + lC > lB)
     {
-        if (LA == LB && LB == LC)
+        if (lA == lB && lB == lC)
         {
             printf("Triangulo equilatero!\n");
             printf("     *     \n");
@@ -27,7 +27,7 @@ int main()
             printf("   *****   \n");
             printf("  *******  \n");
             printf(" ********* \n");
-        }else if (LA == LB || LA == LC || LB == LC)
+        }else if (lA == lB || lA == lC || lB == lC)
         {
             printf("Triangulo isosceles!\n");
             printf("     * \n");
